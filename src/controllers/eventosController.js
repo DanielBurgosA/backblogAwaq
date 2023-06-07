@@ -1,4 +1,5 @@
-const Evento = require("../models/Evento");
+const { Evento } = require("../db");
+
 
 async function obtenerEventos(req, res) {
   try {

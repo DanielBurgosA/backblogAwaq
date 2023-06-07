@@ -1,4 +1,5 @@
-const Noticia = require("../models/Noticia");
+const { Noticia } = require("../db");
+
 
 async function obtenerNoticias(req, res) {
   try {
